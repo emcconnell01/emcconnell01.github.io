@@ -1,0 +1,107 @@
+* {
+	font-family: Tahoma;
+	text-align: center;
+}
+
+h2 {
+	color: white;
+}
+span {
+	margin-left: 1em;
+}
+
+body {
+	background-color: black;
+}
+
+h1 {
+	color: white;
+	font-size: 60px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+input {
+	text-align: left;
+	margin-right: 30px;
+}
+
+p {
+	color: white;
+	margin-top: 5px;
+	margin-bottom: 2em;
+}
+button {
+	font-size: 26px;
+	color: black;
+	background-color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	border: black;
+	padding: 20px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+button:hover {
+	background: rgb(14,0,117);
+	background: linear-gradient(90deg, rgba(14,0,117,1) 0%, rgba(119,9,121,1) 50%, rgba(255,0,84,1) 100%);
+	color: white;
+}
+
+#fruit {
+	font-size: 40px;
+	color:white;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 150px 0;
+	font-weight: bold;
+}
+
+
+#history {
+	font-size: 24px;
+	font-weight: bold;
+	color:white;
+	text-align: center;
+	padding:10px;
+	text-decoration: underline;
+}
+
+li {
+	color:white;
+	text-align: left;
+	padding: 10px;
+	margin-left: 10em;
+	margin-right: 10em;
+	margin-bottom: 1em;
+	
+	font-size: 18px;
+	background: rgb(14,0,117);
+	background: linear-gradient(90deg, rgba(14,0,117,1) 0%, rgba(119,9,121,1) 50%, rgba(255,0,84,1) 100%);
+}
+
+#histcontainer {
+	margin-top: 30px;
+}
+
+#b2 {
+	opacity: 0.0;
+	cursor: auto;
+	width: 0px;
+	height: 0px;
+}
+
+#ol1 {
+	list-style-type: none;
+	padding: 0px;
+}
+
+#b1 {
+	margin-top: 1em;
+}
+
+#username {
+	text-align: center;
+}
